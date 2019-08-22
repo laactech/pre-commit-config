@@ -1,6 +1,4 @@
-BSD 3-Clause License
-
-Copyright (c) 2019, LAAC Technology
+Copyright © 2019, [LAAC Technology](https://www.laac.dev/).
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
