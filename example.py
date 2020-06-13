@@ -13,6 +13,8 @@ x = {  'a':37,'b':42,
 
 x = 123456789.123456789E123456789
 
+dangerous = input("Is this safe?")
+
 if very_long_variable_name is not None and \
  very_long_variable_name.field > 0 or \
  very_long_variable_name.is_debug:
