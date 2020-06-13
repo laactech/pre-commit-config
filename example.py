@@ -3,7 +3,8 @@ import math
 import requests
 import os
 from typing import List, Dict
-
+import pendulum
+another_variable = requests.ConnectionError
 very_long_variable_name = math.pi
 
 x = {  'a':37,'b':42,

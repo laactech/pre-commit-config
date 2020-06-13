@@ -1,5 +1,4 @@
-import pendulum
-from math import inf
-
-this = pendulum.now()
+from math import inf, nan
+import requests
+this = nan
 that = inf
