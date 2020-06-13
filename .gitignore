@@ -1,2 +1,4 @@
 # Pycharm
 .idea/*
+.python-version
+venv/
