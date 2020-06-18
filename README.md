@@ -14,17 +14,21 @@ populate the "known_third_party" part of the `.isort.cfg`
 ## Getting started
 **Requires `python >=3.6`, `pre-commit>=1.14` and a `git` repository**
 
-1. Copy the following files to the root of your Python project:
+1. Copy the following files to the root of your Python project's git repository:
     * .pre-commit-config.yaml
     * .flake8
     * .isort.cfg
     * pyproject.toml
-2. `git add` the previous files to your git repository
-3. Run `pip install pre-commit`
-4. Run `pre-commit install`
+1. `git add` the previous files to your git repository
+1. Run `pip install pre-commit`
+1. Add pre-commit to your project's requirements
+1. Run `pre-commit install`
+1. `git commit` the new configuration files
+1. Run `pre-commit run -a` to lint and format your entire project
+1. `git add` and `git commit` the formatting and linting changes once you've resolved any
+issues
 
 Now on every commit, `pre-commit` will use a git hook to run the tools.
-
 **Warning: the first commit will take some time because the tools are being installed by
 `pre-commit`**
 
